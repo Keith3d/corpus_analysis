@@ -1,0 +1,7 @@
+Git Notes: A place to write notes about learning Git!
+
+git add -A
+git commit -m "type your message here"
+git push
+
+git pull
