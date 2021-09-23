@@ -1,4 +1,4 @@
-import os, shutil, glob
+import os, shutil
 
 data_length_limit = 1000
 data_dir = os.path.join('data', 'full-qn')
