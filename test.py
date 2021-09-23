@@ -4,7 +4,7 @@ f = open("data/full-qn/QN35_1.txt", "r")
 # Assign text content from file as a string variable
 data = f.read()
 # Split string into list of words (removing unwanted characters)
-data_words = data.replace("\n", " ").replace(".", "").split(" ")
+data_words = data.replace("\n", " ").split(" ")
 # Clean the list, removing empty items
 data_words_clean = list(filter(("").__ne__, data_words))
 # Data lengths
